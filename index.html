@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+        <title>Meu Portifólio</title>
+        <link rel="stylesheet" href="css/estilo.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <audio id="points" src="/src/points.mp3"></audio>
+    
+    </head>
+    
+    <body> 
+    <header>
+
+        <div class="menu-container">
+                <h3> Menu </h3>
+        <nav id="menu" class="navbar">
+                <a href="#sobre">Sobre</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contato">Contato</a>
+        </nav>
+
+        </div>
+    </header>
+            <img src="src/texture1.png" class="texture">
+            <img src="src/grain.gif" class="grain">
+     
+        
+        <div id="sobre" class="container">
+         <div class="left">
+            <div class="texto">
+                <h1 class="intro">Olá, meu nome é Luiz Eldi!</h1>
+                <p>Desenvolvedor Front-end em aprendizagem.</p>
+            </div>
+    
+            <div class="sobre">
+            <h2>Sobre mim</h2>
+            <p>Sou estudante de desenvolvimento front-end, possuo formação técnica em informática com foco em programação, tenho uma base sólida em HTML e CSS, além de conhecimentos básicos sobre JavaScript e MySQL. Atualmente busco minha primeira oportunidade como desenvolvedor júnior na área, onde eu possa colocar em prática meus conhecimentos e adquirir novas habilidades técnicas. Sinta-se a vontade pra explorar meu portfólio e usar o playground interativo!</p>
+                <a href="src/Currículo Luiz Eldi.pdf" download class="btn-download">
+                   Baixar Currículo
+                </a>
+        </div>
+          </div>
+
+            <div class="right">
+                <div class="snake-container">
+                    <div class="blur"></div>
+                <div class="snake-info">
+                    <h2>Playground</h2>
+                    <p>Use ← → ↑ ↓ para aprender novas tecnologias!</p>
+                    </div>
+                    <canvas id="snake-game"></canvas>            
+                    <button id="sound-button">🔇</button>
+               <p class="snake-footer">Construído com JavaScript e Canvas API.</p>
+               
+                </div>
+            </div>
+            
+        </div>
+
+                <div class="ambient-divider">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        <div id="projetos" class="projetos">
+            <h2>Projetos</h2>    
+            
+            <div class="projetos-container">
+            
+                <div class="info-projeto">
+                <h3 class="titulo">Projeto CRUD Node.js</h3>
+                <div class="card-crud">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="desc-crud">Projeto CRUD desenvolvido utilizando Node.js, Express e MySQL. A aplicação permite gerenciar dados de usuários, realizando operações de criação, leitura, atualização e exclusão de registros em um banco de dados.</p>
+                <img class="img-proj" src="src/CrudJs1.png">
+                <img class="img-proj" src="src/CrudJs2.png">
+                <img class="img-proj" src="src/CrudJs3.png">
+                    <a href="https://github.com/lz-r3at00/Sistema-Web-com-Opera-es-CRUD." target="_blank">
+                    <button class="btn-proj">Ver Projeto</button>
+                    </a>
+                    </div>
+             </div>    
+            <div class="info-projeto">
+                <h3 class="titulo">Interface Web em HTML e CSS</h3>
+                <div class="card-html">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="desc-html">Meu primeiro projeto de interface web desenvolvido utilizando HTML e CSS. O projeto apresenta um site fictício chamado SOPOLPA. O layout é estruturado com seções de Home, Produtos, Sobre e Contato.</p>
+                    <img class="img-proj" src="src/Sopolpa1.png">
+                    <img class="img-proj" src="src/Sopolpa2.png">
+                    <img class="img-proj" src="src/Sopolpa3.png">
+                      <a href="https://github.com/lz-r3at00/Interface-Web-em-HTML-e-CSS" target="_blank">
+                    <button class="btn-proj">Ver Projeto</button>
+                    </a>
+             </div>
+            </div>
+            </div>    
+        </div>
+
+        <div id="imageModal" class="image-modal">
+            <span class="close-modal">x</span>
+            <img id="modalImg" class="modal-img">
+        </div>
+
+        <script src="js/script.js"></script>
+
+
+   
+    <footer>
+        
+        <div class="faixa-footer"></div>
+
+        <div id="contato" class="container-footer">
+            <div class="contato">
+            
+                <h2>Contato</h2>
+                    <h1 class="footer-intro">Vamos conversar sobre seu próximo projeto!</h1>
+                    <p> <i class="fa-solid fa-envelope"></i>Email: luizeldi0@gmail.com </p>
+                    <p> <i class="fa-solid fa-phone"></i>Telefone: (88) 9 9639-9686</p>
+            </div>
+                    <div class="navegacao">
+                    <h2>Navegação</h2>
+                    <a href="#sobre">Sobre</a>  
+                    <a href="#projetos">Projetos</a>
+            </div>
+                    <div class="redes-sociais">
+                    <h2>Redes Sociais</h2>
+                    <a href="https://www.linkedin.com/in/luiz-eldi/" target="_blank"> <i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+                    <a href="https://www.instagram.com/luiz_eldi_/" target="_blank"> <i class="fa-brands fa-instagram"></i>Instagram</a>
+                    <a href="https://github.com/lz-r3at00" target="_blank"> <i class="fa-brands fa-github"></i>GitHub</a>
+             </div>    
+            </div>
+        </div>   
+        <p class="copyright">
+            © 2026 Luiz Eldi.
+        </p>
+    </footer>
+     </body>
+</html>
+
