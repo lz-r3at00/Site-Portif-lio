@@ -594,3 +594,172 @@ i {
     margin-right: 10px;
 }
 
+@media (max-width: 768px){
+
+    /* botão download */
+
+    .btn-download{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Estrutura principal */
+
+    .container{
+        flex-direction: column;
+        gap: 80px;
+        padding: 120px 6%;
+    }
+
+    .left{
+        gap: 60px;
+        width: 100%;
+    }
+
+    .right{
+        width: 100%;
+        margin-bottom: 0;
+        display: none;
+    }
+
+    /* Textos */
+
+    .intro{
+        white-space: normal;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .titulo{
+        white-space: normal;
+    }
+
+    .texto{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .texto p{
+        font-size: 18px;
+    }
+
+    .sobre{
+        width: 100%;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .sobre p{
+        font-size: 18px;
+    }
+
+    /* Snake */
+
+    .snake-container{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    #snake-game{
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+    }
+
+    #sound-button{
+        margin-left: 0;
+    }
+
+    .snake-info{
+        text-align: center;
+    }
+
+    /* Projetos */
+
+    .projetos-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 1\0px;
+    }
+
+    .info-projeto{
+        width: 80%;
+        max-width: 320px;
+        height: auto;  
+    }
+
+    .info-projeto .img-proj:nth-of-type(2),
+    .info-projeto .img-proj:nth-of-type(3){
+        display: none;
+    }
+
+
+    .img-proj{
+        width: 100%;
+        max-width: 230px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .btn-proj{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Footer */
+
+    .container-footer{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .navegacao{
+        margin-right: 0;
+    }
+
+    /* Menu */
+
+    .menu-container{
+        display: none;
+    }
+
+    .navbar{
+        display: none;    
+    }
+
+    /* Efeitos */
+
+    .grain{
+        opacity: 0.015;
+    }
+
+    .texture{
+        opacity: 0.15;
+    }
+
+    .blur-mobile{
+    position: absolute;
+
+    width: 400px;
+    height: 400px;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    background:
+    radial-gradient(
+        circle,
+        rgba(59,130,246,0.25) 0%,
+        transparent 70%
+    );
+
+    pointer-events: none;
+
+    z-index: 0;
+    }
+  
+
+}
